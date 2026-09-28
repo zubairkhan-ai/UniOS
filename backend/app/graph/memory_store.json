@@ -1,0 +1,52 @@
+[
+    {
+        "type": "rag",
+        "user": "What is my next deadline?",
+        "ai": "📚 Lecture Answer:\nThe answer is not available in the provided lecture material.\n\n📅 University Information:\n[24] 📝 OOP - mid term quiz\n    Type: Quiz\n    Due: 2026-09-26\n    Status: pending"
+    },
+    {
+        "type": "rag",
+        "user": "What is my next deadline?",
+        "ai": "📚 Lecture Answer:\nThe answer is not available in the provided lecture material.\n\n📅 University Information:\n[24] 📝 OOP - mid term quiz\n    Type: Quiz\n    Due: 2026-09-26\n    Status: pending"
+    },
+    {
+        "type": "rag",
+        "user": "What is an operating system?",
+        "ai": "OS is a resource allocator"
+    },
+    {
+        "type": "tool",
+        "user": "Show my quizzes",
+        "ai": "[24] 📝 OOP - mid term quiz\n    Type: Quiz\n    Due: 2026-09-26\n    Status: completed\n[17] 📝 OS - Quiz\n    Type: Quiz\n    Due: 2026-09-27\n    Status: pending\n[28] 📝 CN - Mid Term Quiz\n    Type: Quiz\n    Due: 2026-09-27\n    Status: pending\n[29] 📝 OS - Mid Term Quiz\n    Type: Quiz\n    Due: 2026-09-27\n    Status: pending\n[25] 📝 OS - second quiz\n    Type: Quiz\n    Due: 2026-09-29\n    Status: pending\n[21] 📝 WEB_AI - web and ai\n    Type: Quiz\n    Due: 2026-09-30\n    Status: pending\n[19] 📝 KRR - Quiz\n    Type: Quiz\n    Due: 2026-10-01\n    Status: pending\n[20] 📝 DAA - mid term\n    Type: Quiz\n    Due: 2026-10-05\n    Status: pending\n[22] 📝 WEB_AI - mid term quiz\n    Type: Quiz\n    Due: 2026-10-09\n    Status: pending\n[23] 📝 OOP - OOP\n    Type: Quiz\n    Due: 2026-11-08\n    Status: pending"
+    },
+    {
+        "type": "tool",
+        "user": "show deadlines",
+        "ai": "I couldn't understand that request."
+    },
+    {
+        "type": "rag",
+        "user": "explain operating system",
+        "ai": "The operating system is a program that acts as an intermediary between a user of a computer and the computer hardware. Its primary goal is to execute user programs and make solving user problems easier. The operating system uses the computer hardware in an efficient manner, making it convenient to use. It is responsible for managing all resources, deciding between conflicting requests for efficient and fair resource use, and controlling the execution of programs to prevent errors and improve the overall performance of the computer system. The operating system is a resource allocator, a control program, and a grand tour of the major components"
+    },
+    {
+        "type": "rag",
+        "user": "/what is time complexity",
+        "ai": "The time complexity of an algorithm is the number of steps required to solve a problem with a given size. In the context of the lecture, the time complexity of an algorithm is the number of steps required to solve a problem with a given size. The goal is to find the best algorithm to solve the problem with a less number of steps. The time complexity of an algorithm is expressed as a function of the size of the problem, which is called the time complexity of the algorithm T(n)."
+    },
+    {
+        "type": "rag",
+        "user": "explain operating system",
+        "ai": "The operating system is a program that acts as an intermediary between a user of a computer and the computer hardware. Its primary goal is to execute user programs and make solving user problems easier. The operating system uses the computer hardware in an efficient manner, making it convenient to use. It is responsible for managing all resources, deciding between conflicting requests for efficient and fair resource use, and controlling the execution of programs to prevent errors and improve the overall performance of the computer system. The operating system is a resource allocator, a control program, and a grand tour of the major components"
+    },
+    {
+        "type": "rag",
+        "user": "explain css",
+        "ai": "The lecture context does not contain enough information to answer the question. The context provided is a web and ai course, week 01, lecture 1, and the question asks about css. The answer provided is a concise summary of the basics of css, including the introduction to css, the different types of css, and how to apply css. The answer does not provide any specific information about css selectors."
+    },
+    {
+        "type": "rag",
+        "user": "what is CSS",
+        "ai": "CSS stands for Cascading Style Sheets."
+    }
+]

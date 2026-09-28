@@ -1,0 +1,13 @@
+{
+    "current_study_task": {
+        "id": 26,
+        "course": "CN",
+        "title": "Computer Networks Lab 3",
+        "description": "Complete Packet Tracer topology.",
+        "due_date": "2026-09-25",
+        "status": "pending",
+        "created_at": "2026-09-26T14:03:05.756738",
+        "task_type": "assignment"
+    },
+    "pending_request": null
+}
