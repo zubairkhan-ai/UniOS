@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python cache / testing
+# =========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / temporary
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Hugging Face / ML cache
+# =========================
+.cache/
+.huggingface/
+
+# =========================
+# Chroma generated database
+# =========================
+data/chroma_db/
+
+# =========================
+# SQLite temporary files
+# =========================
+*.db-journal
+*.db-shm
+*.db-wal
