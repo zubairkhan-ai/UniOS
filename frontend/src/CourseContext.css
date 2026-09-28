@@ -1,0 +1,67 @@
+/* =========================================================
+   AI ASSISTANT — COURSE CONTEXT
+   ========================================================= */
+
+.assistant-course-context {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  margin-bottom: 10px;
+}
+
+.assistant-course-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 0 0 auto;
+  color: #12203a;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.assistant-course-icon {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.assistant-course-context select {
+  width: min(440px, 100%);
+  height: 38px;
+  padding: 0 34px 0 12px;
+  border: 1px solid #d7dce5;
+  border-radius: 7px;
+  background: #ffffff;
+  color: #3b4352;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.assistant-course-context select:hover {
+  border-color: #b9c0cd;
+}
+
+.assistant-course-context select:focus {
+  border-color: #5146e5;
+  box-shadow: 0 0 0 3px rgba(81, 70, 229, 0.10);
+}
+
+.assistant-course-context select:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+@media (max-width: 700px) {
+  .assistant-course-context {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .assistant-course-context select {
+    width: 100%;
+  }
+}
