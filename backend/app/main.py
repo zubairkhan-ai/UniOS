@@ -58,6 +58,7 @@ app.add_middleware(
 
 class ChatRequest(BaseModel):
     message: str
+    course: str | None = None
 
 
 class AssignmentRequest(BaseModel):
@@ -101,7 +102,10 @@ def chat_endpoint(request: ChatRequest):
 
     try:
 
-        response = chat(request.message)
+        response = chat(
+            request.message,
+            course=request.course
+        )
 
         return {
             "response": response
